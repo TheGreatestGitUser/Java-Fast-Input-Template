@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
+// here is the Main.java class which houses the entire code template for fast input in Java. It isn't the fastest, but it is really fast in comparison to other solutions, such as the Scanner class.
 public class Main {
     // here is an instance of the BufferedReader class, called "in", and it is private and static
     private static BufferedReader in = new BufferedReader (new InputStreamReader(System.in));
