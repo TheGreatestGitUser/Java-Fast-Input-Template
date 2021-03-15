@@ -44,17 +44,18 @@ public class Main {
         return in.readLine().trim();
     }
 
-  public static void main(String[] args) throws IOException {
-      System.out.println("This is a template for fast input.");
-      System.out.println("It builds off of the BufferedReader class.");
-      System.out.println("If you can't remember all of this code, let's say for CP contests,");
-      System.out.println("then you can do: BufferedReader in = new BufferedReader(new InputStreamReader(System.in));");System.out.println("The input comes as a string with the method: br.readLine() and you can do Integer.parseInt(in.readLine()) or Long.parseLong(in.readLine()) for integers.");
-      System.out.println("For decimals, you can do Double.parseDouble(in.readLine())");
-      System.out.println("\n\nPlease enter a value as a test.");
-      System.out.println("You entered: " + nextLine());
-      System.out.println("\n\nPlease enter an integer or long as a test.");
-      System.out.println("You entered: " + nextLong());
-      System.out.println("\n\nPlease enter a decimal as a test.");
-      System.out.println("You entered: " + nextDouble());
-  }
+    // here is the main method of the program which is used to run the code
+    public static void main(String[] args) throws IOException {
+        System.out.println("This is a template for fast input.");
+        System.out.println("It builds off of the BufferedReader class.");
+        System.out.println("If you can't remember all of this code, let's say for CP contests,");
+        System.out.println("then you can do: BufferedReader in = new BufferedReader(new InputStreamReader(System.in));");System.out.println("The input comes as a string with the method: br.readLine() and you can do Integer.parseInt(in.readLine()) or Long.parseLong(in.readLine()) for integers.");
+        System.out.println("For decimals, you can do Double.parseDouble(in.readLine())");
+        System.out.println("\n\nPlease enter a value as a test.");
+        System.out.println("You entered: " + nextLine());
+        System.out.println("\n\nPlease enter an integer or long as a test.");
+        System.out.println("You entered: " + nextLong());
+        System.out.println("\n\nPlease enter a decimal as a test.");
+        System.out.println("You entered: " + nextDouble());
+    }
 }
