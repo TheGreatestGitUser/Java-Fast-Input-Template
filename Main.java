@@ -3,6 +3,7 @@
     *   @author Joshua Persaud
     *   @since 3/14/2021
 */
+// here are the specific imports, so that entire libraries aren't imported and wasted
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -50,5 +51,9 @@ public class Main {
       System.out.println("For decimals, you can do Double.parseDouble(in.readLine())");
       System.out.println("\n\nPlease enter a value as a test.");
       System.out.println("You entered: " + nextLine());
+      System.out.println("\n\nPlease enter an integer as a test.");
+      System.out.println("You entered: " + nextInt());
+      System.out.println("\n\nPlease enter a decimal as a test.");
+      System.out.println("You entered: " + nextDouble());
   }
 }
