@@ -52,8 +52,8 @@ public class Main {
       System.out.println("For decimals, you can do Double.parseDouble(in.readLine())");
       System.out.println("\n\nPlease enter a value as a test.");
       System.out.println("You entered: " + nextLine());
-      System.out.println("\n\nPlease enter an integer as a test.");
-      System.out.println("You entered: " + nextInt());
+      System.out.println("\n\nPlease enter an integer or long as a test.");
+      System.out.println("You entered: " + nextLong());
       System.out.println("\n\nPlease enter a decimal as a test.");
       System.out.println("You entered: " + nextDouble());
   }
